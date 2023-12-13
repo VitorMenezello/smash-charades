@@ -1,0 +1,23 @@
+<main class="main">
+  <app-header
+    [(throws)]="throws"
+    [(taunts)]="taunts"
+    [(inputMoves)]="inputMoves"
+    [(echoFighters)]="echoFighters"
+    [(miis)]="miis">
+  </app-header>
+  <div class="content">
+    <div class="card">
+      <h2 id="nothing-selected" *ngIf="selectedChar === null">Click Randomize to roll a move</h2>
+      <h2 id="selected-char">{{ selectedChar?.name }}</h2>
+      <h2 id="selected-move">{{ selectedMove?.name }}</h2>
+      <button class="button" (click)="randomize()">
+        <span>Randomize</span>
+        <img class="randomize-icon" src="/assets/images/random.png" alt="Randomize" />
+      </button>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</main>
+
+<router-outlet></router-outlet>

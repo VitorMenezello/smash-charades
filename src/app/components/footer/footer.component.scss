@@ -1,0 +1,75 @@
+@import '../../sass/colors.scss';
+
+:host {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: $footer;
+
+    .version {
+      font-size: 12px;
+      font-weight: 500;
+      margin-right: 16px;
+    }
+
+    .contact-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1080px;
+      padding: 10px 0;
+      margin-left: 16px;
+
+      .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contact-item {
+          display: flex;
+          align-items: center;
+
+          &:not(:last-of-type) {
+            margin-right: 8px;
+          }
+
+          &:not(:first-of-type) {
+            margin-left: 8px;
+          }
+
+          .contact-link {
+            display: flex;
+            align-items: center;
+
+            .contact-icon {
+              width: 24px;
+              height: 24px;
+              border-radius: 50%;
+              padding: 6px;
+              margin-right: 5px;
+            }
+          }
+
+          .twitter {
+            color: $twitter;
+
+            .contact-icon {
+              background: $twitter;
+            }
+          }
+
+          .github {
+            color: $github;
+
+            .contact-icon {
+              background: $github;
+            }
+          }
+        }
+      }
+    }
+  }
+}
