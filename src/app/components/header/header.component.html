@@ -1,0 +1,34 @@
+<div class="header-container">
+  <div class="header">
+    <img class="logo" src="/assets/images/UABH_Logo_Unido_Transparente.png" alt="Ultra Arcade" />
+    <h2>Smash Charades</h2>
+
+    <div class="menu-button" [matMenuTriggerFor]="menu">
+      <img class="menu-icon" src="/assets/images/menu.png" alt="Menu" />
+    </div>
+
+    <mat-menu #menu="matMenu">
+      <div
+        class="menu-content"
+        (click)="$event.stopPropagation()"
+        (keydown.tab)="$event.stopPropagation()"
+        (keydown.shift.tab)="$event.stopPropagation()">
+        <mat-checkbox class="menu-checkbox" [(ngModel)]="throws" (change)="changeThrows()">
+          Grabs and Throws
+        </mat-checkbox>
+        <mat-checkbox class="menu-checkbox" [(ngModel)]="taunts" (change)="changeTaunts()">
+          Taunts
+        </mat-checkbox>
+        <mat-checkbox class="menu-checkbox" [(ngModel)]="inputMoves" (change)="changeInputMoves()">
+          Input Moves
+        </mat-checkbox>
+        <mat-checkbox class="menu-checkbox" [(ngModel)]="echoFighters" (change)="changeEchoFighters()">
+          Echo Fighters
+        </mat-checkbox>
+        <mat-checkbox class="menu-checkbox" [(ngModel)]="miis" (change)="changeMiis()">
+          Miis
+        </mat-checkbox>
+      </div>
+    </mat-menu>
+  </div>
+</div>
