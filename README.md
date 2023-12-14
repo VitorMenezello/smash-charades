@@ -1,27 +1,33 @@
-# SmashCharades
+# Smash Charades
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
+Access the web page for [Smash Charades](https://vitormenezello.github.io/smash-charades/).
 
-## Development server
+## The Game
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This application was made to act as the classic game of Charades. One person clicks the "Randomize" button to roll a Smash character and one of its moves. Once the move is revealed, the player acts out the move using hand signals and body motions, but no spoken words or sounds.
+Players then try to guess the character and move. The player giving the correct answer gets to go next, and so on.
 
-## Code scaffolding
+## Options
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The players can turn on extra options to enable throws, taunts, echo fighters, input moves and miis. Soon there will be gifs for every move, and they will also be optional, but turned on by default.
 
-## Build
+## Errors and Feedback
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+If you find any errors, or have any feedback, you can contact me through my social media available on the footer of the page.
 
-## Running unit tests
+# Mímica Smash
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Acesse a página web do [Mímica Smash](https://vitormenezello.github.io/smash-charades/).
 
-## Running end-to-end tests
+## O Jogo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Esta aplicação foi feita para agir como o clássico jogo de Mímica. Uma pessoa clica no botão "Randomize" para sortear um personagem de Smash e um dos seus golpes. Uma vez que o golpe é revelado, o jogador atua o golpe usando sinais de mão e movimentos corporais, mas sem falar palavras ou fazer sons.
+Jogadores então tentam descobrir o personagem e o golpe. O jogador que acertar faz a próxima, e assim em diante.
 
-## Further help
+## Opções
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Os jogadores podem ativas opções extras para habilitar throws, taunts, echo fighters, input moves e miis. Em breve haverão gifs para todos os golpes, e também serão opcionais, porém ligados por padrão.
+
+## Erros e Feedback
+
+Se você encontrar algum erro, ou tiver algum feedback, pode entrar em contato comigo pelos links de redes sociais no rodapé da página.
