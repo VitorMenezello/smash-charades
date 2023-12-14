@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { version } from '../../../../package.json';
+import packageInfo from '../../../../package.json';
 
 @Component({
   selector: 'app-footer',
@@ -9,5 +9,5 @@ import { version } from '../../../../package.json';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
-  version = version;
+  version = packageInfo.version;
 }
